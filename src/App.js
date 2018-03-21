@@ -4,6 +4,8 @@ import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
 
+// import './app.css'
+
 import CssBaseline from 'material-ui/CssBaseline'
 import AppBar from 'material-ui/AppBar'
 import Tabs, { Tab } from 'material-ui/Tabs'
