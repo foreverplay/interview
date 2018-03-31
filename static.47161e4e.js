@@ -382,8 +382,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
         _reactMoment2.default,
         { format: 'MMMM Do, YYYY' },
         post.data.date
-      ),
-      _react2.default.createElement('img', { className: 'image', src: post.data.thumbnail, alt: '' })
+      )
     ),
     _react2.default.createElement(_reactMarkdown2.default, { source: post.content, escapeHtml: false })
   );
@@ -1612,4 +1611,4 @@ module.exports = require("material-ui/colors");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.05fcb092.js.map
+//# sourceMappingURL=static.47161e4e.js.map
