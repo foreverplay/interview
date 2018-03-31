@@ -5,24 +5,11 @@ import { Route } from 'react-router-dom'
 import universal, { setHasBabelPlugin } from 'react-universal-component'
 import { cleanPath } from 'react-static'
 
-
-
-setHasBabelPlugin()
-
-const universalOptions = {
-  loading: () => null,
-  error: props => {
-    console.error(props.error);
-    return <div>An error occurred loading this page's template. More information is available in the console.</div>;
-  },
-}
-
-  const t_0 = universal(import('../src/containers/Home'), universalOptions)
-const t_1 = universal(import('../src/containers/About'), universalOptions)
-const t_2 = universal(import('../src/containers/Post'), universalOptions)
-const t_3 = universal(import('../src/containers/Blog'), universalOptions)
-const t_4 = universal(import('../src/containers/404'), universalOptions)
-    
+import t_0 from '../src/containers/Home'
+import t_1 from '../src/containers/About'
+import t_2 from '../src/containers/Post'
+import t_3 from '../src/containers/Blog'
+import t_4 from '../src/containers/404'
 
 // Template Map
 global.componentsByTemplateID = global.componentsByTemplateID || [
