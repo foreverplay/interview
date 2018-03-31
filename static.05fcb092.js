@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://foreverplay.github.io/interview/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 12);
@@ -366,7 +366,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
     null,
     _react2.default.createElement(
       _Typography2.default,
-      { type: 'body1', component: _reactStatic.Link, to: '/interview/blog/', gutterBottom: true },
+      { type: 'body1', component: _reactStatic.Link, to: '/blog/', gutterBottom: true },
       '<',
       ' Back'
     ),
@@ -436,7 +436,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
             { key: post.data.slug },
             _react2.default.createElement(
               _reactStatic.Link,
-              { to: '/interview/blog/post/' + post.data.slug },
+              { to: '/blog/post/' + post.data.slug },
               post.data.title
             )
           );
@@ -655,9 +655,9 @@ var App = function (_PureComponent) {
               _react2.default.createElement(
                 _Tabs2.default,
                 { className: classes.tabs, value: false },
-                _react2.default.createElement(_Tabs.Tab, { component: _reactStatic.Link, to: '/interview/', label: 'Home' }),
-                _react2.default.createElement(_Tabs.Tab, { component: _reactStatic.Link, to: '/interview/about', label: 'About' }),
-                _react2.default.createElement(_Tabs.Tab, { component: _reactStatic.Link, to: '/interview/blog', label: 'Blog' })
+                _react2.default.createElement(_Tabs.Tab, { component: _reactStatic.Link, to: '/', label: 'Home' }),
+                _react2.default.createElement(_Tabs.Tab, { component: _reactStatic.Link, to: '/about', label: 'About' }),
+                _react2.default.createElement(_Tabs.Tab, { component: _reactStatic.Link, to: '/blog', label: 'Blog' })
               )
             )
           ),
@@ -1612,4 +1612,4 @@ module.exports = require("material-ui/colors");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.1bf0c82d.js.map
+//# sourceMappingURL=static.05fcb092.js.map
